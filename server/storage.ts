@@ -6,6 +6,8 @@ import type {
   Booking, InsertBooking,
   Testimonial, InsertTestimonial
 } from "@shared/schema";
+import session from "express-session";
+import createMemoryStore from "memorystore";
 
 export interface IStorage {
   // User methods
