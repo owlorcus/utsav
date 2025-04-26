@@ -10,6 +10,9 @@ import session from "express-session";
 import createMemoryStore from "memorystore";
 
 export interface IStorage {
+  // Session store
+  sessionStore: any; // Using any for session store type to avoid typescript issues
+  
   // User methods
   getUser(id: number): Promise<User | undefined>;
   getUserByUsername(username: string): Promise<User | undefined>;
@@ -56,6 +59,8 @@ export class MemStorage implements IStorage {
   private eventIdCounter: number;
   private bookingIdCounter: number;
   private testimonialIdCounter: number;
+  
+  public sessionStore: any; // Using any for session store type to avoid typescript issues
 
   constructor() {
     this.users = new Map();
@@ -69,6 +74,12 @@ export class MemStorage implements IStorage {
     this.eventIdCounter = 1;
     this.bookingIdCounter = 1;
     this.testimonialIdCounter = 1;
+    
+    // Create memory store for sessions
+    const MemoryStore = createMemoryStore(session);
+    this.sessionStore = new MemoryStore({
+      checkPeriod: 86400000 // prune expired entries every 24h
+    });
 
     // Initialize with default data
     this.initializeDefaultData();
