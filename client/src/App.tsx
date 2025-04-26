@@ -4,6 +4,8 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "next-themes";
+import { AuthProvider } from "@/hooks/use-auth";
+import { ProtectedRoute } from "@/lib/protected-route";
 
 import Header from "@/components/header";
 import Footer from "@/components/footer";
@@ -14,6 +16,7 @@ import EventDetails from "@/pages/event-details";
 import CreateEvent from "@/pages/create-event";
 import About from "@/pages/about";
 import Contact from "@/pages/contact";
+import AuthPage from "@/pages/auth-page";
 
 function Router() {
   return (
@@ -24,9 +27,10 @@ function Router() {
           <Route path="/" component={Home} />
           <Route path="/events" component={Events} />
           <Route path="/events/:id" component={EventDetails} />
-          <Route path="/create" component={CreateEvent} />
+          <ProtectedRoute path="/create" component={CreateEvent} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/auth" component={AuthPage} />
           <Route component={NotFound} />
         </Switch>
       </main>
@@ -41,7 +45,9 @@ function App() {
       <ThemeProvider attribute="class" defaultTheme="light">
         <TooltipProvider>
           <Toaster />
-          <Router />
+          <AuthProvider>
+            <Router />
+          </AuthProvider>
         </TooltipProvider>
       </ThemeProvider>
     </QueryClientProvider>
