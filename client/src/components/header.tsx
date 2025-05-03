@@ -39,7 +39,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-[#FF9933] font-poppins">Utsav</span>
+              <span className="text-2xl font-bold text-[#FF9933] font-poppins">Evexa</span>
               <span className="text-xs bg-[#138808] text-white px-2 py-1 rounded ml-2">Events</span>
             </Link>
           </div>

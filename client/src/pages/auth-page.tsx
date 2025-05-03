@@ -85,7 +85,7 @@ export default function AuthPage() {
       <div className="w-full md:w-1/2 flex flex-col items-center justify-center p-8">
         <div className="w-full max-w-md space-y-6">
           <div className="text-center">
-            <h1 className="text-3xl font-bold text-slate-900">Utsav Events</h1>
+            <h1 className="text-3xl font-bold text-slate-900">Evexa Events</h1>
             <p className="mt-2 text-slate-600">Sign in to manage your events</p>
           </div>
 
@@ -256,7 +256,7 @@ export default function AuthPage() {
       {/* Right side - Hero image and description */}
       <div className="hidden md:w-1/2 md:flex bg-gradient-to-r from-primary to-primary-600 text-white">
         <div className="flex flex-col justify-center p-12">
-          <h2 className="text-4xl font-bold mb-6">Celebrate with Utsav</h2>
+          <h2 className="text-4xl font-bold mb-6">Celebrate with Evexa</h2>
           <p className="text-lg mb-8">
             India's premier event management platform with cultural relevance and seamless experience.
           </p>
