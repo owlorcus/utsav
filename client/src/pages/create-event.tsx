@@ -129,8 +129,8 @@ const CreateEvent = () => {
   return (
     <>
       <Helmet>
-        <title>Create New Event | Utsav Events</title>
-        <meta name="description" content="Create and host your own event on Utsav Event Management Platform" />
+        <title>Create New Event | Evexa Events</title>
+        <meta name="description" content="Create and host your own event on Evexa Event Management Platform" />
       </Helmet>
       
       <HeroSection 
