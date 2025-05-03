@@ -4,7 +4,6 @@ import CategoriesSection from "@/components/categories-section";
 import FeaturedEvents from "@/components/featured-events";
 import UpcomingEvents from "@/components/upcoming-events";
 import CreateEventCTA from "@/components/create-event-cta";
-import Testimonials from "@/components/testimonials";
 import MobileAppSection from "@/components/mobile-app-section";
 import { Helmet } from "react-helmet";
 
@@ -22,7 +21,6 @@ const Home = () => {
       <FeaturedEvents />
       <UpcomingEvents />
       <CreateEventCTA />
-      <Testimonials />
       <MobileAppSection />
     </>
   );

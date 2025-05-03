@@ -99,32 +99,7 @@ export class MemStorage implements IStorage {
 
     defaultCategories.forEach(category => this.createCategory(category));
 
-    // Add default testimonials
-    const defaultTestimonials: InsertTestimonial[] = [
-      {
-        name: "Priya Sharma",
-        position: "Wedding Planner, Delhi",
-        content: "Evexa made planning our traditional wedding so much easier. The vendor connections and planning tools saved us countless hours of work.",
-        rating: 5,
-        avatar: "https://randomuser.me/api/portraits/women/44.jpg"
-      },
-      {
-        name: "Raj Mehta",
-        position: "Event Manager, Mumbai",
-        content: "Our corporate event was a massive success thanks to Evexa's platform. The registration process was seamless and the analytics helped us track attendance.",
-        rating: 5,
-        avatar: "https://randomuser.me/api/portraits/men/32.jpg"
-      },
-      {
-        name: "Ananya Patel",
-        position: "Festival Organizer, Bangalore",
-        content: "As a festival organizer, I've used many platforms, but Evexa stands out with its India-focused features. The cultural calendar integration is particularly helpful.",
-        rating: 4,
-        avatar: "https://randomuser.me/api/portraits/women/68.jpg"
-      }
-    ];
-
-    defaultTestimonials.forEach(testimonial => this.createTestimonial(testimonial));
+    // No default testimonials
 
     // Create a default admin user
     this.createUser({
