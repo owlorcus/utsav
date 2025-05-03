@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Utsav Events - Indian Event Management Platform</title>
+        <title>Evexa Events - Indian Event Management Platform</title>
         <meta name="description" content="Find, create, and manage all types of Indian events from traditional celebrations to modern gatherings." />
       </Helmet>
       

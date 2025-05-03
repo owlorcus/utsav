@@ -128,19 +128,34 @@ const Header = () => {
                     </Link>
                   ))}
                   <hr className="my-2" />
-                  <Button 
-                    variant="outline" 
-                    className="w-full"
-                    asChild
-                  >
-                    <Link href="/login" onClick={closeMenu}>Login</Link>
-                  </Button>
-                  <Button 
-                    className="w-full bg-[#FF9933] hover:bg-opacity-90 text-white"
-                    asChild
-                  >
-                    <Link href="/signup" onClick={closeMenu}>Sign Up</Link>
-                  </Button>
+                  {!user ? (
+                    <>
+                      <Button 
+                        variant="outline" 
+                        className="w-full"
+                        asChild
+                      >
+                        <Link href="/auth" onClick={closeMenu}>Login</Link>
+                      </Button>
+                      <Button 
+                        className="w-full bg-[#FF9933] hover:bg-opacity-90 text-white"
+                        asChild
+                      >
+                        <Link href="/auth" onClick={closeMenu}>Sign Up</Link>
+                      </Button>
+                    </>
+                  ) : (
+                    <Button 
+                      className="w-full bg-[#FF9933] hover:bg-opacity-90 text-white"
+                      onClick={() => {
+                        handleLogout();
+                        closeMenu();
+                      }}
+                    >
+                      <LogOut className="mr-2 h-4 w-4" />
+                      <span>Log out</span>
+                    </Button>
+                  )}
                 </div>
               </SheetContent>
             </Sheet>

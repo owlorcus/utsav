@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center mb-4">
-              <span className="text-2xl font-bold text-[#FF9933] font-poppins">Utsav</span>
+              <span className="text-2xl font-bold text-[#FF9933] font-poppins">Evexa</span>
               <span className="text-xs bg-[#138808] text-white px-2 py-1 rounded ml-2">Events</span>
             </div>
             <p className="text-gray-400 mb-4">The ultimate platform for finding, creating, and managing events across India.</p>
@@ -62,7 +62,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <i className="ri-mail-line text-[#FF9933] mr-2"></i>
-                <span className="text-gray-400">info@utsavevents.in</span>
+                <span className="text-gray-400">info@evexaevents.in</span>
               </li>
             </ul>
           </div>
@@ -70,7 +70,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-700 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} Utsav Events. All rights reserved.</p>
+            <p className="text-gray-400 text-sm mb-4 md:mb-0">&copy; {new Date().getFullYear()} Evexa Events. All rights reserved.</p>
             <div className="flex space-x-6">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
