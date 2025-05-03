@@ -5,12 +5,12 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About Us | Utsav Events</title>
-        <meta name="description" content="Learn about Utsav Events - India's premier event management platform" />
+        <title>About Us | Evexa Events</title>
+        <meta name="description" content="Learn about Evexa Events - India's premier event management platform" />
       </Helmet>
       
       <HeroSection 
-        title="About Utsav Events"
+        title="About Evexa Events"
         subtitle="India's premier platform for finding and organizing cultural and modern events"
       />
       
@@ -20,7 +20,7 @@ const About = () => {
             <div className="prose prose-lg mx-auto">
               <h2 className="text-2xl font-bold mb-6 font-poppins text-[#333333]">Our Story</h2>
               <p className="mb-6">
-                Utsav Events was founded in 2023 with a simple mission: to make event discovery and management 
+                Evexa Events was founded in 2023 with a simple mission: to make event discovery and management 
                 easier for everyone in India. Our platform brings together event organizers and attendees 
                 in a seamless digital experience that celebrates India's rich cultural heritage while embracing 
                 modern event trends.
@@ -35,7 +35,7 @@ const About = () => {
               
               <h2 className="text-2xl font-bold mb-6 font-poppins text-[#333333] mt-12">Our Mission</h2>
               <p className="mb-6">
-                At Utsav Events, our mission is to simplify the event management process while promoting and 
+                At Evexa Events, our mission is to simplify the event management process while promoting and 
                 preserving India's rich cultural traditions. We aim to be the bridge that connects event organizers 
                 with their target audiences, providing tools that make event creation, discovery, and attendance 
                 a joy rather than a challenge.
@@ -69,7 +69,7 @@ const About = () => {
               
               <h2 className="text-2xl font-bold mb-6 font-poppins text-[#333333]">Our Team</h2>
               <p className="mb-6">
-                Utsav Events is powered by a passionate team of event industry experts, technology enthusiasts, 
+                Evexa Events is powered by a passionate team of event industry experts, technology enthusiasts, 
                 and cultural aficionados. With backgrounds spanning event management, software development, and 
                 digital marketing, our diverse team brings together the perfect blend of skills needed to create 
                 an exceptional platform for the Indian events ecosystem.

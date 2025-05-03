@@ -63,8 +63,8 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | Utsav Events</title>
-        <meta name="description" content="Get in touch with the Utsav Events team for any inquiries or support" />
+        <title>Contact Us | Evexa Events</title>
+        <meta name="description" content="Get in touch with the Evexa Events team for any inquiries or support" />
       </Helmet>
       
       <HeroSection 
