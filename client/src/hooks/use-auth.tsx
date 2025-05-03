@@ -92,7 +92,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       queryClient.setQueryData(["/api/user"], userData);
       toast({
         title: "Registration successful",
-        description: `Welcome to Utsav Events, ${userData.name}!`,
+        description: `Welcome to Evexa Events, ${userData.name}!`,
       });
     },
     onError: (error: Error) => {
