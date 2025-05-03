@@ -91,8 +91,8 @@ const Events = () => {
   return (
     <>
       <Helmet>
-        <title>{pageTitle} | Utsav Events</title>
-        <meta name="description" content={`Explore and discover ${pageTitle} on Utsav Events Platform`} />
+        <title>{pageTitle} | Evexa Events</title>
+        <meta name="description" content={`Explore and discover ${pageTitle} on Evexa Events Platform`} />
       </Helmet>
       
       <HeroSection 

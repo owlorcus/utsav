@@ -139,7 +139,7 @@ const EventDetails = () => {
   return (
     <>
       <Helmet>
-        <title>{event.title} | Utsav Events</title>
+        <title>{event.title} | Evexa Events</title>
         <meta name="description" content={event.description} />
       </Helmet>
       

@@ -105,7 +105,7 @@ const Contact = () => {
                     <i className="ri-mail-line text-[#FF9933] text-xl mr-3 mt-1"></i>
                     <div>
                       <h3 className="font-semibold text-[#333333]">Email</h3>
-                      <p className="text-gray-600">info@utsavevents.in</p>
+                      <p className="text-gray-600">info@evexaevents.in</p>
                     </div>
                   </div>
                   
@@ -242,7 +242,7 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <div className="border-b pb-4">
-                  <h3 className="text-lg font-semibold mb-2 text-[#333333]">How do I create an event on Utsav?</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-[#333333]">How do I create an event on Evexa?</h3>
                   <p className="text-gray-600">
                     Creating an event is simple! Click on the "Host an Event" button on our homepage or navigate to 
                     the "Create" section in the navigation menu. Fill out the event details form and submit. 
@@ -267,9 +267,9 @@ const Contact = () => {
                 </div>
                 
                 <div className="border-b pb-4">
-                  <h3 className="text-lg font-semibold mb-2 text-[#333333]">Is Utsav available as a mobile app?</h3>
+                  <h3 className="text-lg font-semibold mb-2 text-[#333333]">Is Evexa available as a mobile app?</h3>
                   <p className="text-gray-600">
-                    Yes, Utsav is available as a mobile app for both Android and iOS devices. You can download it from 
+                    Yes, Evexa is available as a mobile app for both Android and iOS devices. You can download it from 
                     the Google Play Store or Apple App Store to manage your events on the go.
                   </p>
                 </div>
